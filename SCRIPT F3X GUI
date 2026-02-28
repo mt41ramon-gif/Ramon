@@ -1,0 +1,1219 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+
+designed using localmaze gui creator
+]=]
+
+-- Instances: 70 | Scripts: 21 | Modules: 0 | Tags: 0
+local LMG2L = {};
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui
+LMG2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+LMG2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame
+LMG2L["Frame_2"] = Instance.new("Frame", LMG2L["ScreenGui_1"]);
+LMG2L["Frame_2"]["BorderSizePixel"] = 0;
+LMG2L["Frame_2"]["BackgroundColor3"] = Color3.fromRGB(228, 255, 0);
+LMG2L["Frame_2"]["Size"] = UDim2.new(0, 668, 0, 542);
+LMG2L["Frame_2"]["Position"] = UDim2.new(0, 294, 0, 140);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.UIDragDetector
+LMG2L["UIDragDetector_3"] = Instance.new("UIDragDetector", LMG2L["Frame_2"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame
+LMG2L["Frame_4"] = Instance.new("Frame", LMG2L["Frame_2"]);
+LMG2L["Frame_4"]["BorderSizePixel"] = 0;
+LMG2L["Frame_4"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["Frame_4"]["Size"] = UDim2.new(0, 664, 0, 536);
+LMG2L["Frame_4"]["Position"] = UDim2.new(0, 2, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.
+LMG2L["_5"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["_5"]["BorderSizePixel"] = 0;
+LMG2L["_5"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["_5"]["Size"] = UDim2.new(0, 74, 0, 68);
+LMG2L["_5"]["Text"] = [[fire all]];
+LMG2L["_5"]["Name"] = [[]];
+LMG2L["_5"]["Position"] = UDim2.new(0, 368, 0, 182);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame..អាវ
+LMG2L["អាវ_6"] = Instance.new("TextButton", LMG2L["_5"]);
+LMG2L["អាវ_6"]["BorderSizePixel"] = 0;
+LMG2L["អាវ_6"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["អាវ_6"]["Size"] = UDim2.new(0, 70, 0, 64);
+LMG2L["អាវ_6"]["Text"] = [[អាវ]];
+LMG2L["អាវ_6"]["Name"] = [[អាវ]];
+LMG2L["អាវ_6"]["Position"] = UDim2.new(0, 2, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame..អាវ.LocalScript
+LMG2L["LocalScript_7"] = Instance.new("LocalScript", LMG2L["អាវ_6"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.COMDOW
+LMG2L["COMDOW_8"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["COMDOW_8"]["BorderSizePixel"] = 0;
+LMG2L["COMDOW_8"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["COMDOW_8"]["Size"] = UDim2.new(0, 74, 0, 68);
+LMG2L["COMDOW_8"]["Text"] = [[]];
+LMG2L["COMDOW_8"]["Name"] = [[COMDOW]];
+LMG2L["COMDOW_8"]["Position"] = UDim2.new(0, 134, 0, 20);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.COMDOW.COMDOW
+LMG2L["COMDOW_9"] = Instance.new("TextButton", LMG2L["COMDOW_8"]);
+LMG2L["COMDOW_9"]["BorderSizePixel"] = 0;
+LMG2L["COMDOW_9"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["COMDOW_9"]["Size"] = UDim2.new(0, 70, 0, 64);
+LMG2L["COMDOW_9"]["Text"] = [[COMDOW 10]];
+LMG2L["COMDOW_9"]["Name"] = [[COMDOW]];
+LMG2L["COMDOW_9"]["Position"] = UDim2.new(0, 2, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.COMDOW.COMDOW.LocalScript
+LMG2L["LocalScript_a"] = Instance.new("LocalScript", LMG2L["COMDOW_9"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.NAme
+LMG2L["NAme_b"] = Instance.new("TextLabel", LMG2L["Frame_4"]);
+LMG2L["NAme_b"]["TextWrapped"] = true;
+LMG2L["NAme_b"]["BorderSizePixel"] = 0;
+LMG2L["NAme_b"]["TextScaled"] = true;
+LMG2L["NAme_b"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["NAme_b"]["TextColor3"] = Color3.fromRGB(12, 255, 0);
+LMG2L["NAme_b"]["Size"] = UDim2.new(0, 360, 0, 16);
+LMG2L["NAme_b"]["BorderColor3"] = Color3.fromRGB(112, 255, 0);
+LMG2L["NAme_b"]["Text"] = [[666_KCAH AND RONA]];
+LMG2L["NAme_b"]["Name"] = [[NAme]];
+LMG2L["NAme_b"]["Position"] = UDim2.new(0, 156, 0, 100);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.NAme.NAme
+LMG2L["NAme_c"] = Instance.new("TextLabel", LMG2L["NAme_b"]);
+LMG2L["NAme_c"]["TextWrapped"] = true;
+LMG2L["NAme_c"]["BorderSizePixel"] = 0;
+LMG2L["NAme_c"]["TextScaled"] = true;
+LMG2L["NAme_c"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["NAme_c"]["TextColor3"] = Color3.fromRGB(12, 255, 0);
+LMG2L["NAme_c"]["Size"] = UDim2.new(0, 360, 0, 16);
+LMG2L["NAme_c"]["BorderColor3"] = Color3.fromRGB(112, 255, 0);
+LMG2L["NAme_c"]["Text"] = [[GUI V2 F3X NEW]];
+LMG2L["NAme_c"]["Name"] = [[NAme]];
+LMG2L["NAme_c"]["Position"] = UDim2.new(0, -4, 0, 32);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.re saver
+LMG2L["re saver_d"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["re saver_d"]["BorderSizePixel"] = 0;
+LMG2L["re saver_d"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["re saver_d"]["Size"] = UDim2.new(0, 74, 0, 68);
+LMG2L["re saver_d"]["Text"] = [[re saver]];
+LMG2L["re saver_d"]["Name"] = [[re saver]];
+LMG2L["re saver_d"]["Position"] = UDim2.new(0, 190, 0, 266);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.re saver.re saver
+LMG2L["re saver_e"] = Instance.new("TextButton", LMG2L["re saver_d"]);
+LMG2L["re saver_e"]["BorderSizePixel"] = 0;
+LMG2L["re saver_e"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["re saver_e"]["Size"] = UDim2.new(0, 70, 0, 64);
+LMG2L["re saver_e"]["Text"] = [[re saver]];
+LMG2L["re saver_e"]["Name"] = [[re saver]];
+LMG2L["re saver_e"]["Position"] = UDim2.new(0, 2, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.re saver.re saver.LocalScript
+LMG2L["LocalScript_f"] = Instance.new("LocalScript", LMG2L["re saver_e"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.fire all
+LMG2L["fire all_10"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["fire all_10"]["BorderSizePixel"] = 0;
+LMG2L["fire all_10"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["fire all_10"]["Size"] = UDim2.new(0, 74, 0, 68);
+LMG2L["fire all_10"]["Text"] = [[fire all]];
+LMG2L["fire all_10"]["Name"] = [[fire all]];
+LMG2L["fire all_10"]["Position"] = UDim2.new(0, 98, 0, 182);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.fire all.fire all
+LMG2L["fire all_11"] = Instance.new("TextButton", LMG2L["fire all_10"]);
+LMG2L["fire all_11"]["BorderSizePixel"] = 0;
+LMG2L["fire all_11"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["fire all_11"]["Size"] = UDim2.new(0, 70, 0, 64);
+LMG2L["fire all_11"]["Text"] = [[fire all]];
+LMG2L["fire all_11"]["Name"] = [[fire all]];
+LMG2L["fire all_11"]["Position"] = UDim2.new(0, 2, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.fire all.fire all.LocalScript
+LMG2L["LocalScript_12"] = Instance.new("LocalScript", LMG2L["fire all_11"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.som
+LMG2L["som_13"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["som_13"]["BorderSizePixel"] = 0;
+LMG2L["som_13"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["som_13"]["Size"] = UDim2.new(0, 108, 0, 68);
+LMG2L["som_13"]["Text"] = [[]];
+LMG2L["som_13"]["Name"] = [[som]];
+LMG2L["som_13"]["Position"] = UDim2.new(0, 538, 0, 184);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.som.som
+LMG2L["som_14"] = Instance.new("TextButton", LMG2L["som_13"]);
+LMG2L["som_14"]["BorderSizePixel"] = 0;
+LMG2L["som_14"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["som_14"]["Size"] = UDim2.new(0, 100, 0, 64);
+LMG2L["som_14"]["Text"] = [[smoke all]];
+LMG2L["som_14"]["Name"] = [[som]];
+LMG2L["som_14"]["Position"] = UDim2.new(0, 4, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.som.som.LocalScript
+LMG2L["LocalScript_15"] = Instance.new("LocalScript", LMG2L["som_14"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.r6
+LMG2L["r6_16"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["r6_16"]["BorderSizePixel"] = 0;
+LMG2L["r6_16"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["r6_16"]["Size"] = UDim2.new(0, 108, 0, 68);
+LMG2L["r6_16"]["Text"] = [[]];
+LMG2L["r6_16"]["Name"] = [[r6]];
+LMG2L["r6_16"]["Position"] = UDim2.new(0, 538, 0, 362);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.r6.r6
+LMG2L["r6_17"] = Instance.new("TextButton", LMG2L["r6_16"]);
+LMG2L["r6_17"]["TextWrapped"] = true;
+LMG2L["r6_17"]["BorderSizePixel"] = 0;
+LMG2L["r6_17"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["r6_17"]["Size"] = UDim2.new(0, 100, 0, 64);
+LMG2L["r6_17"]["Text"] = [[r6]];
+LMG2L["r6_17"]["Name"] = [[r6]];
+LMG2L["r6_17"]["Position"] = UDim2.new(0, 4, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.r6.r6.LocalScript
+LMG2L["LocalScript_18"] = Instance.new("LocalScript", LMG2L["r6_17"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_19"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["TextButton_19"]["BorderSizePixel"] = 0;
+LMG2L["TextButton_19"]["BackgroundColor3"] = Color3.fromRGB(255, 188, 0);
+LMG2L["TextButton_19"]["Size"] = UDim2.new(0, 664, 0, 2);
+LMG2L["TextButton_19"]["Text"] = [[]];
+LMG2L["TextButton_19"]["Position"] = UDim2.new(0, 0, 0, 172);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.sword
+LMG2L["sword_1a"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["sword_1a"]["BorderSizePixel"] = 0;
+LMG2L["sword_1a"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["sword_1a"]["Size"] = UDim2.new(0, 74, 0, 68);
+LMG2L["sword_1a"]["Text"] = [[]];
+LMG2L["sword_1a"]["Name"] = [[sword]];
+LMG2L["sword_1a"]["Position"] = UDim2.new(0, 6, 0, 182);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.sword.sword
+LMG2L["sword_1b"] = Instance.new("TextButton", LMG2L["sword_1a"]);
+LMG2L["sword_1b"]["BorderSizePixel"] = 0;
+LMG2L["sword_1b"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["sword_1b"]["Size"] = UDim2.new(0, 70, 0, 64);
+LMG2L["sword_1b"]["Text"] = [[sword]];
+LMG2L["sword_1b"]["Name"] = [[sword]];
+LMG2L["sword_1b"]["Position"] = UDim2.new(0, 2, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.sword.sword.LocalScript
+LMG2L["LocalScript_1c"] = Instance.new("LocalScript", LMG2L["sword_1b"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.m
+LMG2L["m_1d"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["m_1d"]["BorderSizePixel"] = 0;
+LMG2L["m_1d"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["m_1d"]["Size"] = UDim2.new(0, 74, 0, 68);
+LMG2L["m_1d"]["Text"] = [[666 rona]];
+LMG2L["m_1d"]["Name"] = [[m]];
+LMG2L["m_1d"]["Position"] = UDim2.new(0, 452, 0, 182);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.m.m
+LMG2L["m_1e"] = Instance.new("TextButton", LMG2L["m_1d"]);
+LMG2L["m_1e"]["BorderSizePixel"] = 0;
+LMG2L["m_1e"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["m_1e"]["Size"] = UDim2.new(0, 70, 0, 64);
+LMG2L["m_1e"]["Text"] = [[M 666]];
+LMG2L["m_1e"]["Name"] = [[m]];
+LMG2L["m_1e"]["Position"] = UDim2.new(0, 2, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.m.m.LocalScript
+LMG2L["LocalScript_1f"] = Instance.new("LocalScript", LMG2L["m_1e"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.Disco
+LMG2L["Disco_20"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["Disco_20"]["BorderSizePixel"] = 0;
+LMG2L["Disco_20"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["Disco_20"]["Size"] = UDim2.new(0, 74, 0, 68);
+LMG2L["Disco_20"]["Text"] = [[fire all]];
+LMG2L["Disco_20"]["Name"] = [[Disco]];
+LMG2L["Disco_20"]["Position"] = UDim2.new(0, 190, 0, 182);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.Disco.Disco
+LMG2L["Disco_21"] = Instance.new("TextButton", LMG2L["Disco_20"]);
+LMG2L["Disco_21"]["BorderSizePixel"] = 0;
+LMG2L["Disco_21"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["Disco_21"]["Size"] = UDim2.new(0, 70, 0, 64);
+LMG2L["Disco_21"]["Text"] = [[Disco]];
+LMG2L["Disco_21"]["Name"] = [[Disco]];
+LMG2L["Disco_21"]["Position"] = UDim2.new(0, 2, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.Disco.Disco.LocalScript
+LMG2L["LocalScript_22"] = Instance.new("LocalScript", LMG2L["Disco_21"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.tp
+LMG2L["tp_23"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["tp_23"]["BorderSizePixel"] = 0;
+LMG2L["tp_23"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["tp_23"]["Size"] = UDim2.new(0, 74, 0, 68);
+LMG2L["tp_23"]["Text"] = [[666 rona]];
+LMG2L["tp_23"]["Name"] = [[tp]];
+LMG2L["tp_23"]["Position"] = UDim2.new(0, 282, 0, 270);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.tp.tp
+LMG2L["tp_24"] = Instance.new("TextButton", LMG2L["tp_23"]);
+LMG2L["tp_24"]["BorderSizePixel"] = 0;
+LMG2L["tp_24"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["tp_24"]["Size"] = UDim2.new(0, 70, 0, 64);
+LMG2L["tp_24"]["Text"] = [[tp saver]];
+LMG2L["tp_24"]["Name"] = [[tp]];
+LMG2L["tp_24"]["Position"] = UDim2.new(0, 2, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.tp.tp.LocalScript
+LMG2L["LocalScript_25"] = Instance.new("LocalScript", LMG2L["tp_24"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.m bey
+LMG2L["m bey_26"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["m bey_26"]["BorderSizePixel"] = 0;
+LMG2L["m bey_26"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["m bey_26"]["Size"] = UDim2.new(0, 74, 0, 68);
+LMG2L["m bey_26"]["Text"] = [[666 rona]];
+LMG2L["m bey_26"]["Name"] = [[m bey]];
+LMG2L["m bey_26"]["Position"] = UDim2.new(0, 454, 0, 272);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.m bey.m bey
+LMG2L["m bey_27"] = Instance.new("TextButton", LMG2L["m bey_26"]);
+LMG2L["m bey_27"]["BorderSizePixel"] = 0;
+LMG2L["m bey_27"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["m bey_27"]["Size"] = UDim2.new(0, 70, 0, 64);
+LMG2L["m bey_27"]["Text"] = [[M 666 BEY]];
+LMG2L["m bey_27"]["Name"] = [[m bey]];
+LMG2L["m bey_27"]["Position"] = UDim2.new(0, 2, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.m bey.m bey.LocalScript
+LMG2L["LocalScript_28"] = Instance.new("LocalScript", LMG2L["m bey_27"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.UN
+LMG2L["UN_29"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["UN_29"]["BorderSizePixel"] = 0;
+LMG2L["UN_29"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["UN_29"]["Size"] = UDim2.new(0, 74, 0, 68);
+LMG2L["UN_29"]["Text"] = [[fire all]];
+LMG2L["UN_29"]["Name"] = [[UN]];
+LMG2L["UN_29"]["Position"] = UDim2.new(0, 280, 0, 182);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.UN.UN
+LMG2L["UN_2a"] = Instance.new("TextButton", LMG2L["UN_29"]);
+LMG2L["UN_2a"]["BorderSizePixel"] = 0;
+LMG2L["UN_2a"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["UN_2a"]["Size"] = UDim2.new(0, 70, 0, 64);
+LMG2L["UN_2a"]["Text"] = [[UNSONG]];
+LMG2L["UN_2a"]["Name"] = [[UN]];
+LMG2L["UN_2a"]["Position"] = UDim2.new(0, 2, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.UN.UN.LocalScript
+LMG2L["LocalScript_2b"] = Instance.new("LocalScript", LMG2L["UN_2a"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.hr666
+LMG2L["hr666_2c"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["hr666_2c"]["BorderSizePixel"] = 0;
+LMG2L["hr666_2c"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["hr666_2c"]["Size"] = UDim2.new(0, 74, 0, 68);
+LMG2L["hr666_2c"]["Text"] = [[]];
+LMG2L["hr666_2c"]["Name"] = [[hr666]];
+LMG2L["hr666_2c"]["Position"] = UDim2.new(0, 6, 0, 264);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.hr666.hr 666
+LMG2L["hr 666_2d"] = Instance.new("TextButton", LMG2L["hr666_2c"]);
+LMG2L["hr 666_2d"]["BorderSizePixel"] = 0;
+LMG2L["hr 666_2d"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["hr 666_2d"]["Size"] = UDim2.new(0, 70, 0, 64);
+LMG2L["hr 666_2d"]["Text"] = [[hr 666]];
+LMG2L["hr 666_2d"]["Name"] = [[hr 666]];
+LMG2L["hr 666_2d"]["Position"] = UDim2.new(0, 2, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.hr666.hr 666.LocalScript
+LMG2L["LocalScript_2e"] = Instance.new("LocalScript", LMG2L["hr 666_2d"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.nignt
+LMG2L["nignt_2f"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["nignt_2f"]["BorderSizePixel"] = 0;
+LMG2L["nignt_2f"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["nignt_2f"]["Size"] = UDim2.new(0, 74, 0, 68);
+LMG2L["nignt_2f"]["Text"] = [[666 rona]];
+LMG2L["nignt_2f"]["Name"] = [[nignt]];
+LMG2L["nignt_2f"]["Position"] = UDim2.new(0, 368, 0, 272);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.nignt.nignt
+LMG2L["nignt_30"] = Instance.new("TextButton", LMG2L["nignt_2f"]);
+LMG2L["nignt_30"]["BorderSizePixel"] = 0;
+LMG2L["nignt_30"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["nignt_30"]["Size"] = UDim2.new(0, 70, 0, 64);
+LMG2L["nignt_30"]["Text"] = [[nignt]];
+LMG2L["nignt_30"]["Name"] = [[nignt]];
+LMG2L["nignt_30"]["Position"] = UDim2.new(0, 2, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.nignt.nignt.LocalScript
+LMG2L["LocalScript_31"] = Instance.new("LocalScript", LMG2L["nignt_30"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.sONG2
+LMG2L["sONG2_32"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["sONG2_32"]["BorderSizePixel"] = 0;
+LMG2L["sONG2_32"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["sONG2_32"]["Size"] = UDim2.new(0, 74, 0, 68);
+LMG2L["sONG2_32"]["Text"] = [[F3X]];
+LMG2L["sONG2_32"]["Name"] = [[sONG2]];
+LMG2L["sONG2_32"]["Position"] = UDim2.new(0, 462, 0, 30);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.sONG2.SOGN2!
+LMG2L["SOGN2!_33"] = Instance.new("TextButton", LMG2L["sONG2_32"]);
+LMG2L["SOGN2!_33"]["BorderSizePixel"] = 0;
+LMG2L["SOGN2!_33"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["SOGN2!_33"]["Size"] = UDim2.new(0, 70, 0, 64);
+LMG2L["SOGN2!_33"]["Text"] = [[song2!]];
+LMG2L["SOGN2!_33"]["Name"] = [[SOGN2!]];
+LMG2L["SOGN2!_33"]["Position"] = UDim2.new(0, 2, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.sONG2.SOGN2!.LocalScript
+LMG2L["LocalScript_34"] = Instance.new("LocalScript", LMG2L["SOGN2!_33"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.f3x
+LMG2L["f3x_35"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["f3x_35"]["BorderSizePixel"] = 0;
+LMG2L["f3x_35"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["f3x_35"]["Size"] = UDim2.new(0, 74, 0, 68);
+LMG2L["f3x_35"]["Text"] = [[F3X]];
+LMG2L["f3x_35"]["Name"] = [[f3x]];
+LMG2L["f3x_35"]["Position"] = UDim2.new(0, 58, 0, 32);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.f3x.sONG1
+LMG2L["sONG1_36"] = Instance.new("TextButton", LMG2L["f3x_35"]);
+LMG2L["sONG1_36"]["BorderSizePixel"] = 0;
+LMG2L["sONG1_36"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["sONG1_36"]["Size"] = UDim2.new(0, 74, 0, 68);
+LMG2L["sONG1_36"]["Text"] = [[F3X]];
+LMG2L["sONG1_36"]["Name"] = [[sONG1]];
+LMG2L["sONG1_36"]["Position"] = UDim2.new(0, 480, 0, 4);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.f3x.sONG1.SOGN1!
+LMG2L["SOGN1!_37"] = Instance.new("TextButton", LMG2L["sONG1_36"]);
+LMG2L["SOGN1!_37"]["BorderSizePixel"] = 0;
+LMG2L["SOGN1!_37"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["SOGN1!_37"]["Size"] = UDim2.new(0, 70, 0, 64);
+LMG2L["SOGN1!_37"]["Text"] = [[song1!]];
+LMG2L["SOGN1!_37"]["Name"] = [[SOGN1!]];
+LMG2L["SOGN1!_37"]["Position"] = UDim2.new(0, 2, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.f3x.sONG1.SOGN1!.LocalScript
+LMG2L["LocalScript_38"] = Instance.new("LocalScript", LMG2L["SOGN1!_37"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.f3x.F3x
+LMG2L["F3x_39"] = Instance.new("TextButton", LMG2L["f3x_35"]);
+LMG2L["F3x_39"]["BorderSizePixel"] = 0;
+LMG2L["F3x_39"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["F3x_39"]["Size"] = UDim2.new(0, 70, 0, 64);
+LMG2L["F3x_39"]["Text"] = [[F3X]];
+LMG2L["F3x_39"]["Name"] = [[F3x]];
+LMG2L["F3x_39"]["Position"] = UDim2.new(0, 2, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.f3x.F3x.LocalScript
+LMG2L["LocalScript_3a"] = Instance.new("LocalScript", LMG2L["F3x_39"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.r15
+LMG2L["r15_3b"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["r15_3b"]["BorderSizePixel"] = 0;
+LMG2L["r15_3b"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["r15_3b"]["Size"] = UDim2.new(0, 108, 0, 68);
+LMG2L["r15_3b"]["Text"] = [[]];
+LMG2L["r15_3b"]["Name"] = [[r15]];
+LMG2L["r15_3b"]["Position"] = UDim2.new(0, 538, 0, 272);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.r15.r15
+LMG2L["r15_3c"] = Instance.new("TextButton", LMG2L["r15_3b"]);
+LMG2L["r15_3c"]["BorderSizePixel"] = 0;
+LMG2L["r15_3c"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["r15_3c"]["Size"] = UDim2.new(0, 100, 0, 64);
+LMG2L["r15_3c"]["Text"] = [[r15]];
+LMG2L["r15_3c"]["Name"] = [[r15]];
+LMG2L["r15_3c"]["Position"] = UDim2.new(0, 4, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.r15.r15.LocalScript
+LMG2L["LocalScript_3d"] = Instance.new("LocalScript", LMG2L["r15_3c"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.size me 
+LMG2L["size me _3e"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["size me _3e"]["BorderSizePixel"] = 0;
+LMG2L["size me _3e"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["size me _3e"]["Size"] = UDim2.new(0, 108, 0, 68);
+LMG2L["size me _3e"]["Text"] = [[size me ]];
+LMG2L["size me _3e"]["Name"] = [[size me ]];
+LMG2L["size me _3e"]["Position"] = UDim2.new(0, 540, 0, 446);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.size me .size me 
+LMG2L["size me _3f"] = Instance.new("TextButton", LMG2L["size me _3e"]);
+LMG2L["size me _3f"]["TextWrapped"] = true;
+LMG2L["size me _3f"]["BorderSizePixel"] = 0;
+LMG2L["size me _3f"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["size me _3f"]["Size"] = UDim2.new(0, 100, 0, 64);
+LMG2L["size me _3f"]["Text"] = [[size me ]];
+LMG2L["size me _3f"]["Name"] = [[size me ]];
+LMG2L["size me _3f"]["Position"] = UDim2.new(0, 4, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.size me .size me .LocalScript
+LMG2L["LocalScript_40"] = Instance.new("LocalScript", LMG2L["size me _3f"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.tp all
+LMG2L["tp all_41"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["tp all_41"]["BorderSizePixel"] = 0;
+LMG2L["tp all_41"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["tp all_41"]["Size"] = UDim2.new(0, 74, 0, 68);
+LMG2L["tp all_41"]["Text"] = [[]];
+LMG2L["tp all_41"]["Name"] = [[tp all]];
+LMG2L["tp all_41"]["Position"] = UDim2.new(0, 98, 0, 266);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.tp all.tp all
+LMG2L["tp all_42"] = Instance.new("TextButton", LMG2L["tp all_41"]);
+LMG2L["tp all_42"]["BorderSizePixel"] = 0;
+LMG2L["tp all_42"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["tp all_42"]["Size"] = UDim2.new(0, 70, 0, 64);
+LMG2L["tp all_42"]["Text"] = [[tp all]];
+LMG2L["tp all_42"]["Name"] = [[tp all]];
+LMG2L["tp all_42"]["Position"] = UDim2.new(0, 2, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.tp all.tp all.LocalScript
+LMG2L["LocalScript_43"] = Instance.new("LocalScript", LMG2L["tp all_42"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.Fly
+LMG2L["Fly_44"] = Instance.new("TextButton", LMG2L["Frame_4"]);
+LMG2L["Fly_44"]["BorderSizePixel"] = 0;
+LMG2L["Fly_44"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 0);
+LMG2L["Fly_44"]["Size"] = UDim2.new(0, 108, 0, 68);
+LMG2L["Fly_44"]["Text"] = [[]];
+LMG2L["Fly_44"]["Name"] = [[Fly]];
+LMG2L["Fly_44"]["Position"] = UDim2.new(0, 422, 0, 446);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.Fly.fly
+LMG2L["fly_45"] = Instance.new("TextButton", LMG2L["Fly_44"]);
+LMG2L["fly_45"]["BorderSizePixel"] = 0;
+LMG2L["fly_45"]["BackgroundColor3"] = Color3.fromRGB(255, 144, 0);
+LMG2L["fly_45"]["Size"] = UDim2.new(0, 100, 0, 64);
+LMG2L["fly_45"]["Text"] = [[fly]];
+LMG2L["fly_45"]["Name"] = [[fly]];
+LMG2L["fly_45"]["Position"] = UDim2.new(0, 4, 0, 2);
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.Fly.fly.LocalScript
+LMG2L["LocalScript_46"] = Instance.new("LocalScript", LMG2L["fly_45"]);
+
+
+
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame..អាវ.LocalScript
+local function C_7()
+	local script = LMG2L["LocalScript_7"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/hat all 110605987155531")
+	
+	    end
+	
+	end)	
+	
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/shirt all 10175395723")
+	
+	    end
+	
+	end)	
+	
+end;
+task.spawn(C_7);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.COMDOW.COMDOW.LocalScript
+local function C_a()
+	local script = LMG2L["LocalScript_a"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/countdown 10")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_a);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.re saver.re saver.LocalScript
+local function C_f()
+	local script = LMG2L["LocalScript_f"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/shutdown")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_f);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.fire all.fire all.LocalScript
+local function C_12()
+	local script = LMG2L["LocalScript_12"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/fire all")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_12);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.som.som.LocalScript
+local function C_15()
+	local script = LMG2L["LocalScript_15"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/smoke all")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_15);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.r6.r6.LocalScript
+local function C_18()
+	local script = LMG2L["LocalScript_18"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/r6 me")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_18);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.sword.sword.LocalScript
+local function C_1c()
+	local script = LMG2L["LocalScript_1c"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/sword")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_1c);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.m.m.LocalScript
+local function C_1f()
+	local script = LMG2L["LocalScript_1f"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/m ⚠666_KCAH RONA⚠")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_1f);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.Disco.Disco.LocalScript
+local function C_22()
+	local script = LMG2L["LocalScript_22"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/Disco")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_22);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.tp.tp.LocalScript
+local function C_25()
+	local script = LMG2L["LocalScript_25"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService= game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/follow me all")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_25);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.m bey.m bey.LocalScript
+local function C_28()
+	local script = LMG2L["LocalScript_28"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/m BEYBEY")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_28);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.UN.UN.LocalScript
+local function C_2b()
+	local script = LMG2L["LocalScript_2b"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/unmusic")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_2b);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.hr666.hr 666.LocalScript
+local function C_2e()
+	local script = LMG2L["LocalScript_2e"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/hr 666_HCAK")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_2e);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.nignt.nignt.LocalScript
+local function C_31()
+	local script = LMG2L["LocalScript_31"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/time nignt")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_31);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.sONG2.SOGN2!.LocalScript
+local function C_34()
+	local script = LMG2L["LocalScript_34"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/music 103215672097028")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_34);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.f3x.sONG1.SOGN1!.LocalScript
+local function C_38()
+	local script = LMG2L["LocalScript_38"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/music 1839246711")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_38);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.f3x.F3x.LocalScript
+local function C_3a()
+	local script = LMG2L["LocalScript_3a"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/buildingTools me")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_3a);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.r15.r15.LocalScript
+local function C_3d()
+	local script = LMG2L["LocalScript_3d"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/r15 me")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_3d);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.size me .size me .LocalScript
+local function C_40()
+	local script = LMG2L["LocalScript_40"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/size me 10")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_40);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.tp all.tp all.LocalScript
+local function C_43()
+	local script = LMG2L["LocalScript_43"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/tp me all")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_43);
+-- Players.tensorblx_1.PlayerGui.ScreenGui.Frame.Frame.Fly.fly.LocalScript
+local function C_46()
+	local script = LMG2L["LocalScript_46"];
+	local button = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local TextChatService = game:GetService("TextChatService")
+	
+	
+	
+	local player = Players.LocalPlayer
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+	
+	    local channel = TextChatService.TextChannels.RBXGeneral
+	
+	    if channel then
+	
+	        channel:SendAsync("/fly")
+	
+	    end
+	
+	end)	
+end;
+task.spawn(C_46);
+
+return LMG2L["ScreenGui_1"], require;
